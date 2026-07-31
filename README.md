@@ -1,20 +1,18 @@
-# Paper Playground
+# RLHF Papers
 
-An expandable GitHub Pages collection of interactive explainers for machine learning papers.
+A curated, static reading map for reinforcement learning from human feedback and preference optimization.
 
-## Structure
+The collection follows the research arc from preference-based reward learning to language-model RLHF, Constitutional AI, and DPO. Each paper has a dedicated page with the problem, method, equations, contribution, and caveats.
 
-Each paper lives in its own folder under `papers/`:
+## Papers
 
-```text
-papers/
-└── deep-reinforcement-learning-from-human-preferences/
-    ├── index.html
-    └── README.md
-```
-
-Open the root `index.html` for the paper gallery. To add another paper, create a new lowercase-hyphenated folder under `papers/` and add a card linking to it from the gallery.
+- Deep reinforcement learning from human preferences (2017)
+- Fine-Tuning Language Models from Human Preferences (2019)
+- Learning to Summarize from Human Feedback (2020)
+- Training language models to follow instructions with human feedback / InstructGPT (2022)
+- Constitutional AI: Harmlessness from AI Feedback (2022)
+- Direct Preference Optimization (2023)
 
 ## GitHub Pages
 
-Enable Pages from **Settings -> Pages**, deploy the `main` branch from `/ (root)`, and use the repository's Pages URL.
+The site is deployed from `main` and uses only static HTML/CSS/MathJax. Add new papers under `papers/<paper-slug>/` and link them from the root reading map.
